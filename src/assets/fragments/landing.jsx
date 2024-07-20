@@ -5,13 +5,13 @@ import Navigasi from "../components/nav";
 function LandingPage() {
   return (
     <>
-      <div className="bg-[#222222] w-screen h-screen text-white">
+      <div className="bg-[#222222] w-screen h-screen text-white overflow-hidden">
         <Navigasi />
-        <div className="flex justify-center items-center h-full pb-20 space-x-14">
+        <div className="flex justify-center items-center h-full pb-32 space-x-14">
           <div className="mr-4">
-            <img width={380} className="rounded-full" src="agil.jpeg" alt="Agil Zulfa" />
+            <img width={350} className="rounded-full" src="agil.jpeg" alt="Agil Zulfa" />
           </div>
-          <div className="space-y-6 w-5/12">
+          <div className="space-y-5 w-5/12">
             <h2 className="text-xl opacity-50">Front-end Developer</h2>
             <h1 className="tex text-4xl font-extrabold">Agil Zulfa</h1>
             <p>

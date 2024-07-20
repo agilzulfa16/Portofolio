@@ -1,6 +1,6 @@
 const Navigasi = () => {
     return (
-        <nav className='flex justify-between px-14 pt-8'>
+        <nav className='flex justify-between px-14 pt-8 w-11/12 overflow-hidden'>
       <h1> AgilZulfa </h1>
 
       <ul className='flex space-x-20 font-sans'>
