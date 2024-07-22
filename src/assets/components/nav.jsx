@@ -11,7 +11,7 @@ import {
 function Navigasi() {
   const [openNav, setOpenNav] = React.useState(false);
   const fadeNav = {
-    hidden: { opacity: 0, y: -50 },
+    hidden: { opacity: 0, y: -600 },
     visible: { opacity: 1, y: 0 },
   };
  
