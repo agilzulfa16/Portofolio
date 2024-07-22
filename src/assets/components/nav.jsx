@@ -1,7 +1,7 @@
 import React from "react";
 import {
   Navbar,
-  Collapse,
+  MobileNav,
   Typography,
   Button,
   IconButton,
@@ -21,7 +21,7 @@ function Navigasi() {
  
   return (
     <Navbar className="mx-auto w-full px-4 py-2 lg:px-8 lg:py-4 border-none">
-      <div className="container mx-auto px-4 md:px-20 flex items-center justify-between text-blue-gray-900">
+      <div className="container mx-auto px-8 md:px-20 flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
@@ -48,7 +48,7 @@ function Navigasi() {
         
         <Button
           variant="text"
-          className="ml-auto text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
           ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >
@@ -84,7 +84,7 @@ function Navigasi() {
           )}
         </Button>
       </div>
-      <Collapse open={openNav}>
+      <MobileNav open={openNav}>
         <div className="container mx-auto">
           
           <div className="flex items-center gap-x-1">
@@ -102,7 +102,7 @@ function Navigasi() {
             </Button>
           </div>
         </div>
-      </Collapse>
+      </MobileNav>
     </Navbar>
   );
 }

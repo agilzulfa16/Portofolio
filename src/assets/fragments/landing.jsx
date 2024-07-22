@@ -26,7 +26,7 @@ function LandingPage() {
             </p>
             
             <div className="flex flex-col w-ful md:justify-start md:flex-row">
-              <button type="button" className="bg-[#333333] border-blue-900 border shadow-md shadow-blue-900 px-16 py-2 rounded-3xl md:mb-0 md:mr-4 hidden md:block ">Portfolio</button>
+              <button type="button" className="bg-[#333333] border-blue-900 border-2 px-16 py-2 rounded-3xl md:mb-0 md:mr-4 hidden md:block ">Portfolio</button>
               <button type="button" className="bg-[#333333] border px-10 py-2  rounded-3xl">Contact</button>
             </div>
           </div>
