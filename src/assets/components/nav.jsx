@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import {
   Navbar,
   MobileNav,
@@ -9,6 +10,10 @@ import {
  
 function Navigasi() {
   const [openNav, setOpenNav] = React.useState(false);
+  const fadeNav = {
+    hidden: { opacity: 0, y: -50 },
+    visible: { opacity: 1, y: 0 },
+  };
  
   React.useEffect(() => {
     window.addEventListener(
@@ -20,6 +25,11 @@ function Navigasi() {
  
  
   return (
+    <>
+    <motion.div  initial="hidden"
+    animate="visible"
+    variants={fadeNav}
+    transition={{ duration: 1 }}>
     <Navbar className="mx-auto w-full px-4 py-2 lg:px-8 lg:py-4 border-none">
       <div className="container mx-auto px-8 md:px-20 flex items-center justify-between text-blue-gray-900">
         <Typography
@@ -103,7 +113,7 @@ function Navigasi() {
           </div>
         </div>
       </MobileNav>
-    </Navbar>
+    </Navbar></motion.div></>
   );
 }
 
