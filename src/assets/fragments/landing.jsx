@@ -19,14 +19,15 @@ function LandingPage() {
       <Navigasi />
       <div className="flex flex-col justify-center items-center h-full md:pb-32 md:flex-row md:space-x-14 px-6 md:p-0">
         <motion.div
-          whileHover={{ scale: 1.3 }}
+          
           initial="hidden"
           animate="visible"
           variants={imageVariants}
           transition={{ duration: 1 }}
           className="mb-8 md:mb-0 md:mr-4"
         >
-          <img
+          <motion.img
+          whileHover={{ scale: 1.3 }}
             width={320}
             className="rounded-full shadow-xl shadow-black"
             src="agil.jpeg"
@@ -36,7 +37,7 @@ function LandingPage() {
         </motion.div>
         <div className="space-y-5 md:w-5/12 text-center md:text-left">
           <h2 className="text-xl opacity-50">Front-end Developer</h2>
-          <h1 className="text-4xl font-extrabold mb-10">
+          <h1 className="text-3xl font-extrabold mb-10">
             <Typewriter
               words={["Hi Everyone", "My Name is Agil Zulfa"]}
               loop={false}
@@ -59,30 +60,28 @@ function LandingPage() {
             completed. If you're interested in my work and would like me to
             bring your project to life, don't hesitate to reach out to me!
           </motion.p>
-          <div className="flex flex-col w-full md:justify-start md:flex-row">
-            <motion.button
-              whileHover={{ scale: 1.2 }}
-              initial="hidden"
+          <motion.div className="flex flex-col w-full md:justify-start md:flex-row" initial="hidden"
           animate="visible"
           variants={imageVariants}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1 }}>
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 1.2 }}
+              
               type="button"
-              className="bg-[#333333] border-blue-900 border-2 px-16 py-2 rounded-3xl md:mb-0 md:mr-4 hidden md:block"
+              className="bg-[#333333] border-blue-900 border-2 px-16 py-2 rounded-3xl md:mb-0 md:mr-4 mb-2"
             >
               Portfolio
             </motion.button>
             <motion.button
-              whileHover={{ scale: 1.2 }}
-              initial="hidden"
-            animate="visible"
-            variants={paragraphVariants}
-            transition={{ duration: 1 }}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 1.2 }}
               type="button"
               className="bg-[#333333] border px-10 py-2 rounded-3xl"
             >
               Contact
             </motion.button>
-          </div>
+          </motion.div>
         </div>
       </div>
     </>
