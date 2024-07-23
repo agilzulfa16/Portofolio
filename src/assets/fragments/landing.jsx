@@ -39,7 +39,7 @@ function LandingPage() {
           <h2 className="text-xl opacity-50">Front-end Developer</h2>
           <h1 className="text-3xl font-extrabold mb-10">
             <Typewriter
-              words={["Hi Everyone", "My Name is Agil Zulfa"]}
+              words={["Hi Everyone!", "My Name is Agil Zulfa"]}
               loop={false}
               cursor
               cursorStyle="_"
