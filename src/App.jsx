@@ -8,8 +8,10 @@ import OnDev from "./assets/fragments/ondev";
 
 function App() {
   useEffect(() => {
+    
     document.title = "AGIL ZULFA";
     alert("80% Zoom Ratio is Recommended");
+    
   }, [])
   
   return (
@@ -17,7 +19,7 @@ function App() {
     <>
     
     
-    <div className="bg-[#222222] w-screen h-screen text-white overflow-auto">
+    <div className="bg-[#222222] w-screen h-screen text-white overflow-auto ">
     <LandingPage></LandingPage>
     <PageSkill/>
     <OnDev/>

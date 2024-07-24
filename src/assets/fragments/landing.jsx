@@ -24,7 +24,7 @@ function LandingPage() {
           animate="visible"
           variants={imageVariants}
           transition={{ duration: 1 }}
-          className="mb-8 md:mb-0 md:mr-4"
+          className="mb-8 md:mb-0 md:mr-4 "
         >
           <motion.img
           whileHover={{ scale: 1.3 }}

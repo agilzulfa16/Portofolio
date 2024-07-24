@@ -5,7 +5,7 @@ const OnDev = () => {
         <div className="h-screen w-screen items-center justify-center flex">
         <h1 className="text-4xl font-bold font-sans">
         <Typewriter
-        words={["COMMING SOON!","ON DEVELOPMENT.........."]}
+        words={["COMING SOON!","ON DEVELOPMENT..."]}
         loop={false}
         cursor
         cursorStyle="|"

@@ -40,17 +40,17 @@ function Navigasi() {
           Agil Zulfa
         </Typography>
        
-        <div className="flex items-center gap-x-16">
-          <Button variant="text" size="sm" className="hidden lg:inline-block">
+        <div className="flex items-center gap-x-16 ">
+          <Button variant="text" size="sm" className="hidden lg:inline-block opacity-60 hover:opacity-100">
             <span>Projects</span>
           </Button>
-          <Button variant="text" size="sm" className="hidden lg:inline-block">
+          <Button variant="text" size="sm" className="hidden lg:inline-block opacity-60 hover:opacity-100">
             <span>Skill</span>
           </Button>
-          <Button variant="text" size="sm" className="hidden lg:inline-block">
+          <Button variant="text" size="sm" className="hidden lg:inline-block opacity-60 hover:opacity-100">
             <span>About</span>
           </Button>
-          <Button variant="text" size="sm" className="hidden lg:inline-block">
+          <Button variant="text" size="sm" className="hidden lg:inline-block opacity-60 hover:opacity-100">
             <span>Contact</span>
           </Button>
           
@@ -97,7 +97,7 @@ function Navigasi() {
       <MobileNav open={openNav}>
         <div className="container mx-auto">
           
-          <div className="flex items-center gap-x-1">
+          <div className="flex items-center gap-x-1 ">
             <Button fullWidth variant="text" size="sm" className="">
               <span>Projects</span>
             </Button>
