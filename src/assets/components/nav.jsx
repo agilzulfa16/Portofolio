@@ -97,7 +97,7 @@ function Navigasi() {
       <MobileNav open={openNav}>
         <div className="container mx-auto">
           
-          <div className="flex items-center gap-x-1 ">
+          <div className="flex flex-col gap-y-4 mt-4 items-center gap-x-1 ">
             <Button fullWidth variant="text" size="sm" className="">
               <span>Projects</span>
             </Button>
