@@ -10,8 +10,8 @@ import Certification from "./assets/fragments/page3";
 function App() {
   useEffect(() => {
     
-    document.title = "AGIL ZULFA";
-    // alert("80% Zoom Ratio is Recommended");
+    
+    alert("80% Zoom Ratio is Recommended");
     
   }, [])
   

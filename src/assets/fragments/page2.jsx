@@ -3,7 +3,7 @@ import SkillBar from "../components/skillbar";
 const PageSkill = () => {
   return (
     <>
-      <div className="bg-[#222222] w-screen min-h-screen text-white">
+      <div className="bg-[#222222] w-screen min-h-screen text-white" id="skill">
         <div className=" bg-[#252525] py-12 border-y-2  border-[#333333] mb-2">
           <h1 className="text-4xl px-8 font-sans font-extrabold text-center md:text-start">
             {" "}

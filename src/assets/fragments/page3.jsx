@@ -4,14 +4,15 @@ const Certification = () => {
     
     return  (
         <>
-        <div className=" bg-[#252525] py-12 border-y-2  border-[#333333] mb-2">
+        <div className="min-w-screen min-h-screen" id="portofolio">
+        <div className=" bg-[#252525] py-12 border-y-2  border-[#333333] mb-10">
           <h1 className="text-4xl px-8 font-sans font-extrabold text-center md:text-start">
             {" "}
             CERTIFICATION
           </h1>
         </div>
 
-        <div className="flex h-screen w-screen items-center justify-center gap-8 flex-wrap  overflow-auto">
+        <div className="flex  items-center justify-center gap-x-8 gap-y-8 flex-wrap">
         <CardCertificate judul="MTCNA" by="Mikrotik" foto="mtcna.png" link="https://mikrotik.com/training/certificates/c311085c77a0f863dc8e"/>
         
         <CardCertificate judul="Front-end Development" by="MySkill" foto="myskill.png" link="https://drive.google.com/file/d/13FcqQ4GlAEAGfgev6RBTTpMkHJlxeTeo/view"/>
@@ -19,7 +20,7 @@ const Certification = () => {
         <CardCertificate judul="Pemrograman Web" by="HMIF" foto="hmif.png"/>
         
         </div>
-        </>
+        </div> </>
     )
 }
 

@@ -9,6 +9,12 @@ import {
 } from "@material-tailwind/react";
  
 function Navigasi() {
+  const handleClick = () => {
+    const element = document.getElementById("skill");
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   const [openNav, setOpenNav] = React.useState(false);
   const fadeNav = {
     hidden: { opacity: 0, y: -200 },
@@ -44,7 +50,7 @@ function Navigasi() {
           <Button variant="text" size="sm" className="hidden lg:inline-block opacity-60 hover:opacity-100">
             <span>Projects</span>
           </Button>
-          <Button variant="text" size="sm" className="hidden lg:inline-block opacity-60 hover:opacity-100">
+          <Button variant="text" size="sm" onClick={handleClick} className="hidden lg:inline-block opacity-60 hover:opacity-100">
             <span>Skill</span>
           </Button>
           <Button variant="text" size="sm" className="hidden lg:inline-block opacity-60 hover:opacity-100">

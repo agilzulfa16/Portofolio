@@ -3,7 +3,14 @@ import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 
 function LandingPage() {
-  // Define animation variants
+  
+    const handleClick = () => {
+      const element = document.getElementById("portofolio");
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
   const imageVariants = {
     hidden: { opacity: 0, x: -200 },
     visible: { opacity: 1, x: 0 },
@@ -67,7 +74,7 @@ function LandingPage() {
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 1.2 }}
-              
+              onClick={() => handleClick()}
               type="button"
               className="bg-[#333333] border-blue-900 border-2 px-16 py-2 rounded-3xl md:mb-0 md:mr-4 mb-2"
             >
@@ -78,6 +85,7 @@ function LandingPage() {
               whileTap={{ scale: 1.2 }}
               type="button"
               className="bg-[#333333] border px-10 py-2 rounded-3xl"
+              onClick={() => window.location.href = 'https://wa.me/6289687405602'}
             >
               Contact
             </motion.button>
