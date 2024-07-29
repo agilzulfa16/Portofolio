@@ -107,7 +107,7 @@ function Navigasi() {
             <Button fullWidth variant="text" size="sm" className="">
               <span>Projects</span>
             </Button>
-            <Button fullWidth variant="gradient" size="sm" className="">
+            <Button fullWidth variant="gradient" size="sm" className="" onClick={handleClick}>
               <span>Skill</span>
             </Button>
             <Button fullWidth variant="gradient" size="sm" className="">

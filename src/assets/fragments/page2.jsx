@@ -27,7 +27,7 @@ const PageSkill = () => {
                       <h3 className="text-lg font-semibold text-center md:text-start">
                         UI / UX Design
                       </h3>
-                      <p className="opacity-70 text-base text-justify md:text-start">
+                      <p className="opacity-70 text-base  md:text-start">
                         Mempelajari bidang Web dan Application Design setahun
                         terakhir dengan tool utama figma. Berpengalaman Membuat
                         Web design untuk beberapa projek akhir mata kuliah.
@@ -41,7 +41,7 @@ const PageSkill = () => {
                       <h3 className="text-lg font-semibold text-center md:text-start">
                         HTML, CSS, JavaScript
                       </h3>
-                      <p className="opacity-70 text-base text-justify md:text-start">
+                      <p className="opacity-70 text-base  md:text-start">
                         Menguasai elemen dan tag html dengan baik, Menguasai
                         Selector dan elemen CSS dan cukup menguasai Frameworknya
                         seperti TailwindCSS dan Bootstrap. Serta menguasai Dasar
@@ -56,7 +56,7 @@ const PageSkill = () => {
                       <h3 className="text-lg font-semibold text-center md:text-start">
                         REACT JS
                       </h3>
-                      <p className="opacity-70 text-base text-justify md:text-start">
+                      <p className="opacity-70 text-base  md:text-start">
                         Mempelajari React selama 2 bulan terakhir, cukup
                         menguasai dasar dasar hook React seperti useState,
                         useEffect, useRef, dan lain lain. menguasai syntax
