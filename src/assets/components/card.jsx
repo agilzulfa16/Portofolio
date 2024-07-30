@@ -14,7 +14,7 @@ function CardCertificate(props) {
     <motion.Card
      whileHover={{ scale: 1.02 }}
       shadow={false}
-      className="relative grid h-[28rem]  w-full border-black border-2 shadow-xl shadow-black md:max-w-[20rem] w-[19.5rem] items-center justify-center overflow-hidden text-center  rounded-xl"
+      className="relative grid h-[28rem] border-black border-2 shadow-xl shadow-black md:max-w-[20rem] w-[19.5rem] items-center justify-center overflow-hidden text-center  rounded-xl"
     >
       <CardHeader
         floated={false}
