@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import PageSkill from "./assets/fragments/page2";
 import OnDev from "./assets/fragments/ondev";
 import Certification from "./assets/fragments/page3";
+import Projects from "./assets/fragments/page4";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <LandingPage></LandingPage>
     <PageSkill/>
     <Certification/>
+    <Projects/>
     <OnDev/>
     <Footer />
     </div>
